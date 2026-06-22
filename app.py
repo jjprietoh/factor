@@ -50,17 +50,24 @@ st.markdown("""
     margin-bottom: 20px;
 }
 
-/* TITULO DEL CRITERIO */
+/* Titulo del Criterio */
 label[data-testid="stWidgetLabel"] p {
     font-size: 18px !important;
     font-weight: bold !important;
 }
 
-/* OPCIONES DEL RADIO */
-div[role="radiogroup"] label {
+/* Opciones del radio */
+div[data-testid="stRadio"] div[role="radiogroup"] label {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+}
+
+/* Texto dentro de cada opción */
+div[data-testid="stRadio"] div[role="radiogroup"] p {
     font-size: 18px !important;
-    white-space: normal !important;
-    line-height: 1.4 !important;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
 }
 
 </style>
