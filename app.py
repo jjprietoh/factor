@@ -50,6 +50,19 @@ st.markdown("""
     margin-bottom: 20px;
 }
 
+/* TITULO DEL CRITERIO */
+label[data-testid="stWidgetLabel"] p {
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+/* OPCIONES DEL RADIO */
+div[role="radiogroup"] label {
+    font-size: 18px !important;
+    white-space: normal !important;
+    line-height: 1.4 !important;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
