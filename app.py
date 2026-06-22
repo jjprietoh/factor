@@ -283,7 +283,7 @@ for idx in range(st.session_state.num_ventanas):
 
             criterio_id = f"{ventana}_{criterio}"
 
-            seleccion = st.selectbox(
+            seleccion = st.radio(
                 criterio,
                 list(opciones.keys()),
                 key=f"select_{criterio_id}"
